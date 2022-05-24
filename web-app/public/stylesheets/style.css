@@ -1,0 +1,112 @@
+/*
+ * Copyright 2015 IBM Corp. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the “License”);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an “AS IS” BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* style.css
+ * This file provides css styles.
+ */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+  margin-bottom: 3rem;
+}
+
+.form-all {
+  margin-top: 3rem;
+}
+.inline {
+  /*display: inline;*/
+  color: black;
+}
+.modal-body{
+  word-wrap: break-word;
+}
+
+.form-check {
+  margin-bottom: .5rem;
+}
+
+.cert-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: .7rem;
+  padding-bottom: .8rem;
+}
+
+.upper-row{
+  margin-bottom: 2rem;
+}
+.middle-row{
+  margin-bottom: 2rem;
+}
+
+.list-group li {
+  list-style: none;
+}
+.panel-info, .panel-rating, .panel-more1 {
+  float: left;
+  margin: 0 10px;
+}
+
+.tab-width {
+  width: 300px;
+}
+
+.tab-width a {
+  color: #7b3737;
+}
+
+.nav-item a {
+  color: #7b3737;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 500;
+}
+.marketing .col-lg-4 p {
+  margin-right: .95rem;
+  margin-left: .95rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+
+#jumbotron-index {
+  margin-top: 5rem;
+}
+
+
+
+td {
+  vertical-align: bottom;
+}
